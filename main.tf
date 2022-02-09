@@ -7,6 +7,7 @@ terraform {
 }
 
 provider "docker" {
+  # if you use macOS or Linux comment out the following line
   host = "npipe:////.//pipe//docker_engine"
 }
 
