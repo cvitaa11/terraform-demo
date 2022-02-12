@@ -1,3 +1,3 @@
-variable "containe_name" {
+variable "container_name" {
   type = string
 }
